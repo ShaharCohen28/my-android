@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="0"
+            android:text=""
             android:gravity="center_vertical|right"
             android:textSize="35sp"
             android:padding="16dp"
@@ -76,21 +76,7 @@
                     android:textColor="@color/white" />
 
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:onClick="onClick"
-                android:id="@+id/div">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:text="/"
-                    android:textSize="40sp"
-                    android:textColor="@color/white" />
 
-            </RelativeLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -145,22 +131,7 @@
                     android:textSize="40sp" />
 
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:onClick="onClick"
-                android:id="@+id/multiply">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:text="*"
-                    android:textSize="40sp"
-                    android:textColor="@color/white" />
-
-            </RelativeLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -215,22 +186,7 @@
                     android:textSize="40sp" />
 
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:onClick="onClick"
-                android:id="@+id/minus">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:text="-"
-                    android:textColor="@color/white"
-                    android:textSize="40sp" />
-
-            </RelativeLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -242,13 +198,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="onClick"
-                android:id="@+id/clear">
+                android:id="@+id/del">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="clr"
+                    android:text="del"
                     android:textColor="@color/white"
                     android:textSize="40sp" />
 
@@ -274,52 +230,20 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:onClick="onClick"
-                android:id="@+id/dot">
+                android:id="@+id/dial">
 
-                <TextView
+                <ImageView
+                    android:id="@+id/dialImage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="."
-                    android:textColor="@color/white"
-                    android:textSize="40sp" />
+                    android:src="@drawable/call" />
 
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:onClick="onClick"
-                android:id="@+id/plus">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:text="+"
-                    android:textColor="@color/white"
-                    android:textSize="40sp" />
-
-            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_weight="1.5"
-        android:onClick="onClick"
-        android:id="@+id/equals">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="="
-            android:gravity="center"
-            android:textSize="35sp"
-            android:padding="16dp"
-            android:textColor="@color/white" />
 
-    </LinearLayout>
 
 </LinearLayout>
