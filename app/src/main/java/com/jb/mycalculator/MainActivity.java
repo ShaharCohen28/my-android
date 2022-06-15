@@ -26,16 +26,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void setPointer() {
         result = findViewById(R.id.result);
-        num1 = findViewById(R.id.num1);
-        num2 = findViewById(R.id.num2);
-        num3 = findViewById(R.id.num3);
-        num4 = findViewById(R.id.num4);
-        num5 = findViewById(R.id.num5);
-        num6 = findViewById(R.id.num6);
-        num7 = findViewById(R.id.num7);
-        num8 = findViewById(R.id.num8);
-        num9 = findViewById(R.id.num9);
-        num0 = findViewById(R.id.num0);
+//        num1 = findViewById(R.id.num1);
+//        num2 = findViewById(R.id.num2);
+//        num3 = findViewById(R.id.num3);
+//        num4 = findViewById(R.id.num4);
+//        num5 = findViewById(R.id.num5);
+//        num6 = findViewById(R.id.num6);
+//        num7 = findViewById(R.id.num7);
+//        num8 = findViewById(R.id.num8);
+//        num9 = findViewById(R.id.num9);
+//        num0 = findViewById(R.id.num0);
         div = findViewById(R.id.div);
         multiply = findViewById(R.id.multiply);
         plus = findViewById(R.id.plus);
